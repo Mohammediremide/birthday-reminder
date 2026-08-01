@@ -10,6 +10,15 @@
     "whatsapp": 447414283865,
     "country": "Nigeria"
   },
+
+  {
+    "cohort": "Test",
+    "email": "you@example.com",
+    "fullName": "Test Person",
+    "dob": { "day": 2, "month": 8 },
+    "whatsapp": "",
+    "country": "Nigeria"
+  },
   {
     "cohort": "Cohort 1",
     "email": "adankaire@gmail.com",
