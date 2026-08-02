@@ -2,1462 +2,2509 @@
   {
     "cohort": "Cohort 1",
     "email": "dagbolade72@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "David",
+    "lastName": "Dami",
     "fullName": "David Dami",
     "dob": {
       "day": 1,
       "month": 12
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 447314283865,
     "whatsapp": 447414283865,
-    "country": "Nigeria"
-  },
-
-  {
-    "cohort": "Test",
-    "email": "you@example.com",
-    "fullName": "Test Person",
-    "dob": { "day": 2, "month": 8 },
-    "whatsapp": "",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 1",
     "email": "adankaire@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Tochi",
+    "lastName": "Nkaire",
     "fullName": "Tochi Nkaire",
     "dob": {
       "day": 18,
       "month": 6
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8133571480,
     "whatsapp": 2348133571480,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Rivers"
   },
   {
     "cohort": "Cohort 1",
     "email": "Soburolalekan@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Sobur",
+    "lastName": "Adeagbo ",
     "fullName": "Sobur Adeagbo ",
     "dob": {
       "day": 11,
       "month": 5
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 8139188817,
     "whatsapp": 8139188817,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 1",
     "email": "o.medekong@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Okon",
+    "lastName": "Medekong ",
     "fullName": "Okon Medekong ",
     "dob": {
       "day": 8,
       "month": 6
     },
+    "ageBracket": "40 - 49 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": 8032330917,
     "whatsapp": 8032330917,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Akwa-Ibom"
   },
   {
     "cohort": "Cohort 1",
     "email": "opemipobanso@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Opemipo ",
+    "lastName": "Banso",
     "fullName": "Opemipo  Banso",
     "dob": {
       "day": 26,
       "month": 9
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8169941798,
     "whatsapp": 8169941798,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 1",
     "email": "HAYYOR@GMAIL.COM",
+    "trainingType": "Cohort Training",
+    "firstName": "Ayodeji ",
+    "lastName": "Idowu",
     "fullName": "Ayodeji  Idowu",
     "dob": {
       "day": 26,
       "month": 6
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": 8064207117,
     "whatsapp": 8055742457,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 1",
     "email": "estherogedengbe123@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Esther",
+    "lastName": "Ogedengbe ",
     "fullName": "Esther Ogedengbe ",
     "dob": {
       "day": 2,
       "month": 3
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 9160594434,
     "whatsapp": 9160594433,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 1",
     "email": "zheeko.data@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Babatunde",
+    "lastName": "Usman",
     "fullName": "Babatunde Usman",
     "dob": {
       "day": 17,
       "month": 10
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8032726659,
     "whatsapp": 7086881812,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 1",
     "email": "marvelousadeitan@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Marvelous ",
+    "lastName": "Adeitan ",
     "fullName": "Marvelous  Adeitan ",
     "dob": {
       "day": 15,
       "month": 5
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8165508504,
     "whatsapp": 8165508504,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 1",
     "email": "udoconsulate@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Consulate",
+    "lastName": "Udofia",
     "fullName": "Consulate Udofia",
     "dob": {
       "day": 14,
       "month": 10
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 8147969775,
     "whatsapp": 9076659331,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Akwa-Ibom"
   },
   {
     "cohort": "Cohort 1",
     "email": "amosadebayo01@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Bukunmi",
+    "lastName": "Adebayo",
     "fullName": "Bukunmi Adebayo",
     "dob": {
       "day": 21,
       "month": 11
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Unemployed",
+    "mobile": 8168112838,
     "whatsapp": 8168112838,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Kwara"
   },
   {
     "cohort": "Private Learner",
     "email": "ifejolaadebo123@gmail.com",
+    "trainingType": "Private Training",
+    "firstName": "Ife",
+    "lastName": "Debo",
     "fullName": "Ife Debo",
     "dob": {
       "day": 9,
       "month": 7
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": 16823146469,
     "whatsapp": 16823146469,
-    "country": "United States"
+    "country": "United States",
+    "state": "New York"
   },
   {
     "cohort": "Cohort 1",
     "email": "inaolajiramon@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Inaolaji",
+    "lastName": "Ramon",
     "fullName": "Inaolaji Ramon",
     "dob": {
       "day": 31,
       "month": 7
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 9132669694,
     "whatsapp": 9132669694,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Osun"
   },
   {
     "cohort": "Cohort 1",
     "email": "ojike.onyinye4@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Onyinye",
+    "lastName": "Ojike",
     "fullName": "Onyinye Ojike",
     "dob": {
       "day": 4,
       "month": 9
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8136108069,
     "whatsapp": 8136108069,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 1",
     "email": "abumangy@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Abum",
+    "lastName": "Angel",
     "fullName": "Abum Angel",
     "dob": {
       "day": 10,
       "month": 11
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 7821075920,
     "whatsapp": 447821075920,
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "state": "Derby"
   },
   {
     "cohort": "Cohort 1",
     "email": "oluwatofunmiadewoyin1@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Oluwatofunmi",
+    "lastName": "Adewoyin",
     "fullName": "Oluwatofunmi Adewoyin",
     "dob": {
       "day": 5,
       "month": 3
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 2348061649327,
     "whatsapp": 2348061649327,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Oyo"
   },
   {
     "cohort": "Cohort 1",
     "email": "ijeomachineloezulike@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Ijeoma",
+    "lastName": "Okeke",
     "fullName": "Ijeoma Okeke",
     "dob": {
       "day": 13,
       "month": 11
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8038389755,
     "whatsapp": 8038389755,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Anambra"
   },
   {
     "cohort": "Cohort 2",
     "email": "onojamark@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Mark ",
+    "lastName": "Onoja ",
     "fullName": "Mark  Onoja ",
     "dob": {
       "day": 9,
       "month": 12
     },
+    "ageBracket": "40 - 49 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 7034848778,
     "whatsapp": 7034848778,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Abia"
   },
   {
     "cohort": "Cohort 2",
     "email": "successadeola2019@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Olubanke ",
+    "lastName": "Success ",
     "fullName": "Olubanke  Success ",
     "dob": {
       "day": 5,
       "month": 8
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 9010506102,
     "whatsapp": 9010506102,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "carolineandrew447@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Caroline",
+    "lastName": "Andrew ",
     "fullName": "Caroline Andrew ",
     "dob": {
       "day": 3,
       "month": 7
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 8164433543,
     "whatsapp": 2348164433543,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "blekomania@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Harrison",
+    "lastName": "Ben-Okafor",
     "fullName": "Harrison Ben-Okafor",
     "dob": {
       "day": 5,
       "month": 6
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": 7068456952,
     "whatsapp": 7068456952,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "agnesakpan57@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Agnes",
+    "lastName": "Akpan",
     "fullName": "Agnes Akpan",
     "dob": {
       "day": 5,
       "month": 7
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 9011507479,
     "whatsapp": 9011507479,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Akwa-Ibom"
   },
   {
     "cohort": "Cohort 2",
     "email": "nneomablessing1@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Nneoma ",
+    "lastName": "Uchenna",
     "fullName": "Nneoma  Uchenna",
     "dob": {
       "day": 22,
       "month": 11
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 9062397026,
     "whatsapp": 9062397026,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Rivers"
   },
   {
     "cohort": "Cohort 2",
     "email": "talk2ilori@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Abiodun",
+    "lastName": "Ilori",
     "fullName": "Abiodun Ilori",
     "dob": {
       "day": 14,
       "month": 7
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": 8059397464,
     "whatsapp": 8059397464,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "okunborgerald7@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Great ",
+    "lastName": "Okunbor",
     "fullName": "Great  Okunbor",
     "dob": {
       "day": 7,
       "month": 7
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8089160466,
     "whatsapp": 8089160466,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "FCT"
   },
   {
     "cohort": "Cohort 2",
     "email": "abiodunadedoyin6@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Abiodun ",
+    "lastName": "Adedoyin",
     "fullName": "Abiodun  Adedoyin",
     "dob": {
       "day": 26,
       "month": 12
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8140458974,
     "whatsapp": 8140458974,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "faithfulobia@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Faith",
+    "lastName": "Obia ",
     "fullName": "Faith Obia ",
     "dob": {
       "day": 7,
       "month": 9
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": 8175106064,
     "whatsapp": 8175106064,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "bili1salau@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Biliaminu",
+    "lastName": "Salawu",
     "fullName": "Biliaminu Salawu",
     "dob": {
       "day": 28,
       "month": 5
     },
+    "ageBracket": "40 - 49 years",
+    "sex": "Male",
+    "occupation": "Unemployed",
+    "mobile": 8026402201,
     "whatsapp": 8026402201,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "queenmbuk@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Queen",
+    "lastName": "Mbuk",
     "fullName": "Queen Mbuk",
     "dob": {
       "day": 13,
       "month": 3
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8037379658,
     "whatsapp": 8037379658,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Abia"
   },
   {
     "cohort": "Cohort 2",
     "email": "oladeletimskyd56@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Oluwatimilehin",
+    "lastName": "Oladele",
     "fullName": "Oluwatimilehin Oladele",
     "dob": {
       "day": 15,
       "month": 7
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8112086057,
     "whatsapp": 8112086057,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Enugu"
   },
   {
     "cohort": "Cohort 2",
     "email": "chiziteluokoye6@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Chizitelu",
+    "lastName": "Okoye",
     "fullName": "Chizitelu Okoye",
     "dob": {
       "day": 6,
       "month": 12
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8080772434,
     "whatsapp": 8080772434,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "ogbohbumiaye@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Bumiaye",
+    "lastName": "Ogboh",
     "fullName": "Bumiaye Ogboh",
     "dob": {
       "day": 27,
       "month": 1
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8161280084,
     "whatsapp": 8161280084,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Rivers"
   },
   {
     "cohort": "Cohort 2",
     "email": "babatunde.mahamud@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Babatunde",
+    "lastName": "Usman",
     "fullName": "Babatunde Usman",
     "dob": {
       "day": 17,
       "month": 10
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8032726659,
     "whatsapp": 7086881812,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "amunigunnofisat02@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Nofisat",
+    "lastName": "Hassan",
     "fullName": "Nofisat Hassan",
     "dob": {
       "day": 23,
       "month": 6
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": 8162745284,
     "whatsapp": 8177360649,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Oyo"
   },
   {
     "cohort": "Cohort 2",
     "email": "olusolayomikun@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Victor",
+    "lastName": "Folorunsho",
     "fullName": "Victor Folorunsho",
     "dob": {
       "day": 12,
       "month": 5
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8164364126,
     "whatsapp": 8164364126,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Ogun"
   },
   {
     "cohort": "Cohort 2",
     "email": "jeffs.komo@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Boluwatife",
+    "lastName": "Komolafe",
     "fullName": "Boluwatife Komolafe",
     "dob": {
       "day": 18,
       "month": 4
     },
+    "ageBracket": "18 - 20 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 7064662344,
     "whatsapp": 7064662344,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 2",
     "email": "seyioladipo@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Oluwaseyi",
+    "lastName": "Oladipo",
     "fullName": "Oluwaseyi Oladipo",
     "dob": {
       "day": 29,
       "month": 12
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8032234065,
     "whatsapp": 2348032234065,
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "state": "Birmingham"
   },
   {
     "cohort": "Cohort 2",
     "email": "igwezechinedu73@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Igweze",
+    "lastName": "Christian",
     "fullName": "Igweze Christian",
     "dob": {
       "day": 29,
       "month": 10
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": 2349069223512,
     "whatsapp": 9069223512,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Rivers"
   },
   {
     "cohort": "Cohort 2",
     "email": "badmusademola123@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Ademola",
+    "lastName": "Badmus",
     "fullName": "Ademola Badmus",
     "dob": {
       "day": 17,
       "month": 12
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 8165542686,
     "whatsapp": 8165542686,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Oyo"
   },
   {
     "cohort": "Cohort 2",
     "email": "obialorginika@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "GINIKACHUKWU",
+    "lastName": "OBIALOR",
     "fullName": "GINIKACHUKWU OBIALOR",
     "dob": {
       "day": 18,
       "month": 4
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 2348165806961,
     "whatsapp": 2348165806961,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Abia"
   },
   {
     "cohort": "Cohort 2",
     "email": "Ifepeculiar123@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Ifeoluwa ",
+    "lastName": "Adetula ",
     "fullName": "Ifeoluwa  Adetula ",
     "dob": {
       "day": 23,
       "month": 12
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8062172383,
     "whatsapp": 8062172383,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Oyo"
   },
   {
     "cohort": "Private Learner",
     "email": "odubolaoluwanisola18@gmail.com",
+    "trainingType": "Private Training",
+    "firstName": "Oluwanisola",
+    "lastName": "Odubola",
     "fullName": "Oluwanisola Odubola",
     "dob": {
       "day": 19,
       "month": 6
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Self-employed",
+    "mobile": 4407831205102,
     "whatsapp": 4407831205102,
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "state": "England"
   },
   {
     "cohort": "Cohort 3",
     "email": "christinekhen@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Osowe ",
+    "lastName": "Kehinde",
     "fullName": "Osowe  Kehinde",
     "dob": {
       "day": 23,
       "month": 2
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8109596371,
     "whatsapp": 8109596371,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 3",
     "email": "ejianya.nkemdilim@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Nkemdilim",
+    "lastName": "Ejianya",
     "fullName": "Nkemdilim Ejianya",
     "dob": {
       "day": 14,
       "month": 11
     },
+    "ageBracket": "40 - 49 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": 8037492750,
     "whatsapp": 8037492750,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 3",
     "email": "Nelsontochi514@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "NELSON",
+    "lastName": "TOCHI",
     "fullName": "NELSON TOCHI",
     "dob": {
       "day": 13,
       "month": 6
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": 7084039213,
     "whatsapp": 7084039213,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Rivers"
   },
   {
     "cohort": "Cohort 3",
     "email": "mbanwusifrancisca@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Francisca",
+    "lastName": "Mbanwusi",
     "fullName": "Francisca Mbanwusi",
     "dob": {
       "day": 23,
       "month": 8
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 8083804754,
     "whatsapp": 8083804754,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Enugu"
   },
   {
     "cohort": "Cohort 3",
     "email": "ojeifrancisca772@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Francisca",
+    "lastName": "Ojei",
     "fullName": "Francisca Ojei",
     "dob": {
       "day": 20,
       "month": 9
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": 8131070951,
     "whatsapp": 8131070951,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 3",
     "email": "ikanikehindejacob1@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "KEHINDE JACOB",
+    "lastName": "IKANI",
     "fullName": "KEHINDE JACOB IKANI",
     "dob": {
       "day": 2,
       "month": 5
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Unemployed",
+    "mobile": 9034093529,
     "whatsapp": 9034093529,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Kwara"
   },
   {
     "cohort": "Cohort 3",
     "email": "linusigulaurina@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Laurina",
+    "lastName": "Linus-Igu",
     "fullName": "Laurina Linus-Igu",
     "dob": {
       "day": 27,
       "month": 12
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8130433671,
     "whatsapp": 8130433671,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Rivers"
   },
   {
     "cohort": "Cohort 3",
     "email": "chimeregeorge96@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Chimere",
+    "lastName": "George-Emeruwa",
     "fullName": "Chimere George-Emeruwa",
     "dob": {
       "day": 23,
       "month": 12
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Unemployed",
+    "mobile": 8067776234,
     "whatsapp": 8067776234,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 3",
     "email": "ogiedaniel79@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Daniel",
+    "lastName": "Ogie",
     "fullName": "Daniel Ogie",
     "dob": {
       "day": 5,
       "month": 7
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 8158482396,
     "whatsapp": 8158482396,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Edo"
   },
   {
     "cohort": "Cohort 3",
     "email": "oziemeblessing@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Blessing",
+    "lastName": "Ozieme",
     "fullName": "Blessing Ozieme",
     "dob": {
       "day": 5,
       "month": 10
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": 8056888651,
     "whatsapp": 8056888651,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 3",
     "email": "amakaoyiih@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Chiamaka",
+    "lastName": "Oyiih",
     "fullName": "Chiamaka Oyiih",
     "dob": {
       "day": 25,
       "month": 9
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 8132541817,
     "whatsapp": 8132541817,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "FCT"
   },
   {
     "cohort": "Cohort 3",
     "email": "davidsonangado208@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Paul",
+    "lastName": "David",
     "fullName": "Paul David",
     "dob": {
       "day": 26,
       "month": 9
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 9024802949,
     "whatsapp": 8132828310,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Niger"
   },
   {
     "cohort": "Cohort 3",
     "email": "Kkehindeodus@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Kehinde",
+    "lastName": "Odubola",
     "fullName": "Kehinde Odubola",
     "dob": {
       "day": 26,
       "month": 8
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 9160727091,
     "whatsapp": 8184583581,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Ogun"
   },
   {
     "cohort": "Cohort 3",
     "email": "ayoolaisraell1@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Israel",
+    "lastName": "Ayoola",
     "fullName": "Israel Ayoola",
     "dob": {
       "day": 10,
       "month": 10
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8103116172,
     "whatsapp": 8103116172,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 3",
     "email": "harborlargy@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Yusuf Bolaji",
+    "lastName": "Jimoh",
     "fullName": "Yusuf Bolaji Jimoh",
     "dob": {
       "day": 16,
       "month": 5
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Unemployed",
+    "mobile": 9034375851,
     "whatsapp": 9034375851,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Ogun"
   },
   {
     "cohort": "Cohort 3",
     "email": "justicetheo2018@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Justice",
+    "lastName": "Theophilus",
     "fullName": "Justice Theophilus",
     "dob": {
       "day": 21,
       "month": 7
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": 8069513249,
     "whatsapp": 8069513249,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Enugu"
   },
   {
     "cohort": "Cohort 4",
     "email": "ifeanyinkechi.n@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Nkechi",
+    "lastName": "Ifeanyi",
     "fullName": "Nkechi Ifeanyi",
     "dob": {
       "day": 24,
       "month": 8
     },
+    "ageBracket": "40 - 49 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8137874929,
     "whatsapp": 8137874929,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "FCT"
   },
   {
     "cohort": "Private Learner",
     "email": "osakweemmanuel81@gmail.com",
+    "trainingType": "Private Training",
+    "firstName": "Nnamdi",
+    "lastName": "Osakwe",
     "fullName": "Nnamdi Osakwe",
     "dob": {
       "day": 1,
       "month": 11
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8146016627,
     "whatsapp": 8146016647,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Anambra"
   },
   {
     "cohort": "Cohort 4",
     "email": "shopefoluwaidris@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Shope Foluwa",
+    "lastName": "Idris",
     "fullName": "Shope Foluwa Idris",
     "dob": {
       "day": 3,
       "month": 5
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8112946220,
     "whatsapp": 8167239779,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 4",
     "email": "franklinonyecherem@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "FRANKLIN",
+    "lastName": "ONYECHEREM",
     "fullName": "FRANKLIN ONYECHEREM",
     "dob": {
       "day": 27,
       "month": 2
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8032338204,
     "whatsapp": 8032338204,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Abia"
   },
   {
     "cohort": "Cohort 4",
     "email": "ikennaoziri@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Ikenna",
+    "lastName": "Ozuruigbo",
     "fullName": "Ikenna Ozuruigbo",
     "dob": {
       "day": 28,
       "month": 2
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 23407979668464,
     "whatsapp": 9017722024,
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "state": "London"
   },
   {
     "cohort": "Cohort 4",
     "email": "ayorindeayomide08@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Ayomide",
+    "lastName": "Ayorinde",
     "fullName": "Ayomide Ayorinde",
     "dob": {
       "day": 24,
       "month": 2
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": 7016743886,
     "whatsapp": 7016743886,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Ogun"
   },
   {
     "cohort": "Cohort 4",
     "email": "temitayoolabisi3@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Temitayo",
+    "lastName": "Olabisi",
     "fullName": "Temitayo Olabisi",
     "dob": {
       "day": 27,
       "month": 6
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": 8099648884,
     "whatsapp": 8099648884,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 4",
     "email": "oyelamidavid93@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "David",
+    "lastName": "Oyelami",
     "fullName": "David Oyelami",
     "dob": {
       "day": 14,
       "month": 12
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Unemployed",
+    "mobile": 8026096145,
     "whatsapp": 8036357968,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Oyo"
   },
   {
     "cohort": "Cohort 4",
     "email": "oguntadesamson5@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Samson",
+    "lastName": "Oguntade",
     "fullName": "Samson Oguntade",
     "dob": {
       "day": 23,
       "month": 9
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "NYSC",
+    "mobile": 8109778165,
     "whatsapp": 8109778165,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Nasarawa"
   },
   {
     "cohort": "Cohort 4",
     "email": "ada23march@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Vivian",
+    "lastName": "Ugochukwu",
     "fullName": "Vivian Ugochukwu",
     "dob": {
       "day": 23,
       "month": 3
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": 8030410380,
     "whatsapp": 8030410380,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 4",
     "email": "olaitanolowe13@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Olaitan",
+    "lastName": "Olowe",
     "fullName": "Olaitan Olowe",
     "dob": {
       "day": 13,
       "month": 8
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 9084880943,
     "whatsapp": 9084880943,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Private Learner",
     "email": "godwinomeiza@gmail.com",
+    "trainingType": "Private Training",
+    "firstName": "Godwin",
+    "lastName": "Omeiza",
     "fullName": "Godwin Omeiza",
     "dob": {
       "day": 20,
       "month": 11
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 2348075308109,
     "whatsapp": 2348075308109,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Private Learner",
     "email": "adesholajadeogunleye@gmail.com",
+    "trainingType": "Private Training",
+    "firstName": "Adeshola",
+    "lastName": "Ogunleye",
     "fullName": "Adeshola Ogunleye",
     "dob": {
       "day": 31,
       "month": 7
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 9079857172,
     "whatsapp": 9079857172,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 5",
     "email": "zullyheart3@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Suliyat ",
+    "lastName": "Ishola",
     "fullName": "Suliyat  Ishola",
     "dob": {
       "day": 17,
       "month": 5
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 7015407570,
     "whatsapp": 7015407570,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Rivers"
   },
   {
     "cohort": "Cohort 5",
     "email": "odewunmi.adewale@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Wale",
+    "lastName": "Odewunmi",
     "fullName": "Wale Odewunmi",
     "dob": {
       "day": 12,
       "month": 11
     },
+    "ageBracket": "40 - 49 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 8023030770,
     "whatsapp": 8023030770,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 5",
     "email": "alaoibrahim247@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Ibrahim",
+    "lastName": "Alao",
     "fullName": "Ibrahim Alao",
     "dob": {
       "day": 12,
       "month": 10
     },
+    "ageBracket": "40 - 49 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 2347064403929,
     "whatsapp": 2347064403929,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 5",
     "email": "chimdirepeace@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Peace",
+    "lastName": "Chimdire",
     "fullName": "Peace Chimdire",
     "dob": {
       "day": 29,
       "month": 4
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8167395964,
     "whatsapp": 8167395964,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 5",
     "email": "astrideevoung17@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Astride",
+    "lastName": "Evoung",
     "fullName": "Astride Evoung",
     "dob": {
       "day": 17,
       "month": 5
     },
+    "ageBracket": "18 - 20 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 33749109427,
     "whatsapp": 33749109427,
-    "country": "Cameroon"
+    "country": "Cameroon",
+    "state": "Yaounde"
   },
   {
     "cohort": "Cohort 5",
     "email": "joykristanyaga@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Krista",
+    "lastName": "Nyaga",
     "fullName": "Krista Nyaga",
     "dob": {
       "day": 7,
       "month": 2
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": 254736061925,
     "whatsapp": 254736061925,
-    "country": "Kenya"
+    "country": "Kenya",
+    "state": "Nairobi"
   },
   {
     "cohort": "Cohort 5",
     "email": "binitie94@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Joyce",
+    "lastName": "Binitie",
     "fullName": "Joyce Binitie",
     "dob": {
       "day": 23,
       "month": 5
     },
+    "ageBracket": "50+ years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08038528103 ",
     "whatsapp": "08038528103",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Imo"
   },
   {
     "cohort": "Cohort 5",
     "email": "agboogechukwu708@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Oge",
+    "lastName": "Agbo",
     "fullName": "Oge Agbo",
     "dob": {
       "day": 17,
       "month": 12
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": "09036276471",
     "whatsapp": "09036276471",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "FCT"
   },
   {
     "cohort": "Private Learner",
     "email": "thechikachukwuleta@gmail.com",
+    "trainingType": "Private Training",
+    "firstName": "Chika",
+    "lastName": "Chukwuleta",
     "fullName": "Chika Chukwuleta",
     "dob": {
       "day": 21,
       "month": 2
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "07846176506",
     "whatsapp": "07030499317",
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "state": "Buckinghamshire"
   },
   {
     "cohort": "Cohort 5",
     "email": "orjitrisha@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Patricia ",
+    "lastName": "Orji",
     "fullName": "Patricia  Orji",
     "dob": {
       "day": 29,
       "month": 10
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": "08066070447",
     "whatsapp": "08189371216",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 5",
     "email": "terfatimbir@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Terfa",
+    "lastName": "Timbir",
     "fullName": "Terfa Timbir",
     "dob": {
       "day": 21,
       "month": 2
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": "07031894501",
     "whatsapp": "07031894501",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Abia"
   },
   {
     "cohort": "Cohort 5",
     "email": "shinopee100200@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Adesina",
+    "lastName": "Hamzat",
     "fullName": "Adesina Hamzat",
     "dob": {
       "day": 23,
       "month": 4
     },
+    "ageBracket": "40 - 49 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": "08034679032",
     "whatsapp": "08034679032",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Oyo"
   },
   {
     "cohort": "Cohort 6",
     "email": "inebimotiminiebi@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Timiniebi",
+    "lastName": "Inebimo",
     "fullName": "Timiniebi Inebimo",
     "dob": {
       "day": 27,
       "month": 11
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Unemployed",
+    "mobile": "08105889994",
     "whatsapp": "08105889994",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "adeyeridavid09@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Ayodeji",
+    "lastName": "Adeyeri",
     "fullName": "Ayodeji Adeyeri",
     "dob": {
       "day": 20,
       "month": 9
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": 2348168339626,
     "whatsapp": 2348168339626,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "vicqria9@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Victory",
+    "lastName": "Uwadiegwu",
     "fullName": "Victory Uwadiegwu",
     "dob": {
       "day": 31,
       "month": 12
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": "09068310468",
     "whatsapp": "09068310468",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Delta"
   },
   {
     "cohort": "Cohort 6",
     "email": "blissfulheart62@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Nimota",
+    "lastName": "Ibrahim",
     "fullName": "Nimota Ibrahim",
     "dob": {
       "day": 11,
       "month": 9
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Corps member ",
+    "mobile": "07016903148",
     "whatsapp": "07016903148",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Nasarawa"
   },
   {
     "cohort": "Cohort 6",
     "email": "ayodejisolomon08@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Ayodeji",
+    "lastName": "Solomon",
     "fullName": "Ayodeji Solomon",
     "dob": {
       "day": 8,
       "month": 8
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": "08058453598",
     "whatsapp": "08174162773",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "FCT"
   },
   {
     "cohort": "Cohort 6",
     "email": "adeesoadegbemisola@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Adegbemisola",
+    "lastName": "Adeeso",
     "fullName": "Adegbemisola Adeeso",
     "dob": {
       "day": 31,
       "month": 8
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 447823714596,
     "whatsapp": 447823714596,
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "state": "London"
   },
   {
     "cohort": "Cohort 6",
     "email": "oluwalerevictoria0808@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Victoria",
+    "lastName": "Oluwalere",
     "fullName": "Victoria Oluwalere",
     "dob": {
       "day": 27,
       "month": 8
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08129835741",
     "whatsapp": "08129835741",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "damilareoyerinde02@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Damilare",
+    "lastName": "Oyerinde",
     "fullName": "Damilare Oyerinde",
     "dob": {
       "day": 2,
       "month": 6
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": "07089227915",
     "whatsapp": "07089227915",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "oluwatoyosiesther7@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Oluwatoyosi",
+    "lastName": "Oluwatoyinbo",
     "fullName": "Oluwatoyosi Oluwatoyinbo",
     "dob": {
       "day": 6,
       "month": 3
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "09023304957",
     "whatsapp": "09023304957",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "Owadokunbukola@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Bukola",
+    "lastName": "Owadokun",
     "fullName": "Bukola Owadokun",
     "dob": {
       "day": 1,
       "month": 10
     },
+    "ageBracket": "18 - 20 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": "08163622821",
     "whatsapp": "08163622821",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "olamidotunolatunjiadeniyi@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Olamidotun",
+    "lastName": "Afolabi",
     "fullName": "Olamidotun Afolabi",
     "dob": {
       "day": 9,
       "month": 8
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": "07039107839",
     "whatsapp": "07031815251",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Oyo"
   },
   {
     "cohort": "Cohort 6",
     "email": "oladejiisrael41@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Israel",
+    "lastName": "Oladeji ",
     "fullName": "Israel Oladeji ",
     "dob": {
       "day": 8,
       "month": 6
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Unemployed",
+    "mobile": "08140635336",
     "whatsapp": "08140635336",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Osun"
   },
   {
     "cohort": "Cohort 6",
     "email": "calebmomoh8@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Caleb",
+    "lastName": "Momoh",
     "fullName": "Caleb Momoh",
     "dob": {
       "day": 30,
       "month": 12
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": "08075364002",
     "whatsapp": "08075364002",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Edo"
   },
   {
     "cohort": "Cohort 6",
     "email": "udomary963@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Mary",
+    "lastName": "Udo",
     "fullName": "Mary Udo",
     "dob": {
       "day": 16,
       "month": 4
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08125114994",
     "whatsapp": "08125114994",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "olabisi.balogun.blessing@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Olabisi",
+    "lastName": "Balogun",
     "fullName": "Olabisi Balogun",
     "dob": {
       "day": 14,
       "month": 8
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08105125955",
     "whatsapp": "08105125955",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "ossaindudi543@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Lilian",
+    "lastName": "Ndudi",
     "fullName": "Lilian Ndudi",
     "dob": {
       "day": 10,
       "month": 4
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08168617998",
     "whatsapp": "07086068736",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "mosessunday407@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Abe",
+    "lastName": "Sunday Moses",
     "fullName": "Abe Sunday Moses",
     "dob": {
       "day": 20,
       "month": 10
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Unemployed",
+    "mobile": "09152283194",
     "whatsapp": "09152283194",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Oyo"
   },
   {
     "cohort": "Cohort 6",
     "email": "oluwakemiwogwugwu@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Oluwakemi",
+    "lastName": "Wogwugwu",
     "fullName": "Oluwakemi Wogwugwu",
     "dob": {
       "day": 18,
       "month": 12
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Self-employed",
+    "mobile": 2348179006295,
     "whatsapp": 2348179006295,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "chisomvanetta@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Vanetta",
+    "lastName": "Ijoma",
     "fullName": "Vanetta Ijoma",
     "dob": {
       "day": 25,
       "month": 4
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08060101761",
     "whatsapp": "08095286936",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "olowopapatayo@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Keji",
+    "lastName": "Olowopapatayo",
     "fullName": "Keji Olowopapatayo",
     "dob": {
       "day": 28,
       "month": 4
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08028152434",
     "whatsapp": "08028152434",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "esolomonike198@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Solomon",
+    "lastName": "Eze",
     "fullName": "Solomon Eze",
     "dob": {
       "day": 16,
       "month": 2
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": "08026012441",
     "whatsapp": "08026012441",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "kingweseni@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Joseph",
+    "lastName": "Iwegbue",
     "fullName": "Joseph Iwegbue",
     "dob": {
       "day": 9,
       "month": 11
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": "09060074402",
     "whatsapp": "09060074402",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 6",
     "email": "preciouschizor@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Precious",
+    "lastName": "Jayce-Enubuzor",
     "fullName": "Precious Jayce-Enubuzor",
     "dob": {
       "day": 15,
       "month": 5
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Self-employed",
+    "mobile": "08038857879",
     "whatsapp": "08038857879",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Private Learner",
     "email": "ikemedeugonna4@gmail.com",
+    "trainingType": "Private Training",
+    "firstName": "Ugonna",
+    "lastName": "Ikemede",
     "fullName": "Ugonna Ikemede",
     "dob": {
       "day": 11,
       "month": 6
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Freelancer ",
+    "mobile": "08103840902",
     "whatsapp": "08103840902",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Enugu"
   },
   {
     "cohort": "Cohort 7",
     "email": "zinachidinwachukwu781@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Zinachidi",
+    "lastName": "Nwachukwu",
     "fullName": "Zinachidi Nwachukwu",
     "dob": {
       "day": 2,
       "month": 2
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "+2347015858147",
     "whatsapp": "+2347015858147",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Rivers"
   },
   {
     "cohort": "Cohort 7",
     "email": "evyxander59@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Evelyn",
+    "lastName": "Nkwazema",
     "fullName": "Evelyn Nkwazema",
     "dob": {
       "day": 8,
       "month": 3
     },
+    "ageBracket": "40 - 49 years",
+    "sex": "Female",
+    "occupation": "Self-employed",
+    "mobile": "08065230561",
     "whatsapp": "08065230561",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "FCT"
   },
   {
     "cohort": "Cohort 7",
     "email": "okorieamarachi9080@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Amarachi",
+    "lastName": "Okorie",
     "fullName": "Amarachi Okorie",
     "dob": {
       "day": 30,
       "month": 11
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "07065249080",
     "whatsapp": "07065249080",
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "state": "Wales"
   },
   {
     "cohort": "Cohort 7",
     "email": "busariolayemi12@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Olayemi",
+    "lastName": "Busari",
     "fullName": "Olayemi Busari",
     "dob": {
       "day": 12,
       "month": 11
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": "09066099065",
     "whatsapp": "07016850214",
-    "country": "Morocco"
+    "country": "Morocco",
+    "state": "Rabat"
   },
   {
     "cohort": "Cohort 7",
     "email": "nnamdinnam@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Nnamdi",
+    "lastName": "Nnam",
     "fullName": "Nnamdi Nnam",
     "dob": {
       "day": 24,
       "month": 6
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": 7068021891,
     "whatsapp": 7068021891,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 7",
     "email": "nenyeokafor3@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Chinenye",
+    "lastName": "Okafor",
     "fullName": "Chinenye Okafor",
     "dob": {
       "day": 3,
       "month": 6
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8085409280,
     "whatsapp": 8179820874,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Enugu"
   },
   {
     "cohort": "Private Learner",
     "email": "awolokiite96@gmail.com",
+    "trainingType": "Private Training",
+    "firstName": "Ayomide",
+    "lastName": "Adebayo",
     "fullName": "Ayomide Adebayo",
     "dob": {
       "day": 10,
       "month": 3
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": 8069396875,
     "whatsapp": 8069396875,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Oyo"
   },
   {
     "cohort": "Cohort 8",
     "email": "dan80488@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Nmesoma Eleazar",
+    "lastName": "Njoku",
     "fullName": "Nmesoma Eleazar Njoku",
     "dob": {
       "day": 11,
       "month": 11
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": "09064055497",
     "whatsapp": "09064055497",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Enugu"
   },
   {
     "cohort": "Cohort 8",
     "email": "obianujustef22@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Obianuju",
+    "lastName": "Iwuala",
     "fullName": "Obianuju Iwuala",
     "dob": {
       "day": 11,
       "month": 5
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": "09153388637",
     "whatsapp": "09153388637",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Ogun"
   },
   {
     "cohort": "Cohort 8",
     "email": "ginikaugochukwuc@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "GINIKA STEPHANIE",
+    "lastName": "UGOCHUKWU",
     "fullName": "GINIKA STEPHANIE UGOCHUKWU",
     "dob": {
       "day": 28,
       "month": 7
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Self-employed",
+    "mobile": "08102045250",
     "whatsapp": "08102045250",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 8",
     "email": "Oluwafunmibif@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Oluwafunmibi",
+    "lastName": "Ajayi",
     "fullName": "Oluwafunmibi Ajayi",
     "dob": {
       "day": 25,
       "month": 6
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08102360365",
     "whatsapp": "08082614677",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 8",
     "email": "imeb5000@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Adaeze",
+    "lastName": "Ime",
     "fullName": "Adaeze Ime",
     "dob": {
       "day": 23,
       "month": 8
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Self-employed",
+    "mobile": "08145206447",
     "whatsapp": "08145206447",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Rivers"
   },
   {
     "cohort": "Cohort 9",
     "email": "franciscogonzalez024@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Francisco",
+    "lastName": "Gonzalez",
     "fullName": "Francisco Gonzalez",
     "dob": {
       "day": 24,
       "month": 3
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Employed",
+    "mobile": "+50767724170",
     "whatsapp": "+50767724170",
-    "country": "Panama"
+    "country": "Panama",
+    "state": "Panama"
   },
   {
     "cohort": "Cohort 9",
     "email": "udokajennifer45@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Udoka",
+    "lastName": "Amajuoyi",
     "fullName": "Udoka Amajuoyi",
     "dob": {
       "day": 8,
       "month": 8
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08105751367",
     "whatsapp": "08105751367",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 9",
     "email": "gohinoyi@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Gold",
+    "lastName": "Omeiza",
     "fullName": "Gold Omeiza",
     "dob": {
       "day": 8,
       "month": 2
     },
+    "ageBracket": "Less than 18 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": "+18326517220",
     "whatsapp": "+18326517220",
-    "country": "United States"
+    "country": "United States",
+    "state": "Texas"
   },
   {
     "cohort": "Cohort 9",
     "email": "adinoyichristopher@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Emmanuel",
+    "lastName": "Christhopher",
     "fullName": "Emmanuel Christhopher",
     "dob": {
       "day": 25,
       "month": 8
     },
+    "ageBracket": "Less than 18 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": "09069312894",
     "whatsapp": "09069312894",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Kogi"
   },
   {
     "cohort": "Cohort 9",
     "email": "joyogwuche65@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Joy",
+    "lastName": "Ogwuche",
     "fullName": "Joy Ogwuche",
     "dob": {
       "day": 27,
       "month": 11
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": "08100932575",
     "whatsapp": "08100932575",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Nasarawa"
   },
   {
     "cohort": "Private Learner",
     "email": "zamsglad@gmail.com",
+    "trainingType": "Private Training",
+    "firstName": "Gladys",
+    "lastName": "Zamani",
     "fullName": "Gladys Zamani",
     "dob": {
       "day": 14,
       "month": 8
     },
+    "ageBracket": "30 -34 years",
+    "sex": "Female",
+    "occupation": "Self-employed",
+    "mobile": "08100163401",
     "whatsapp": "08100163401",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 10",
     "email": "inioluwakolawole@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Inioluwa",
+    "lastName": "Kolawole",
     "fullName": "Inioluwa Kolawole",
     "dob": {
       "day": 30,
       "month": 5
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Student",
+    "mobile": "+41783541553",
     "whatsapp": "+41783541553",
-    "country": "Switzerland"
+    "country": "Switzerland",
+    "state": "Thusis"
   },
   {
     "cohort": "Cohort 10",
     "email": "Zinnel2002@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Shalom",
+    "lastName": "Inyama",
     "fullName": "Shalom Inyama",
     "dob": {
       "day": 24,
       "month": 5
     },
+    "ageBracket": "21 - 25 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": "09066280122",
     "whatsapp": "09066280122",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 10",
     "email": "ladeolakunle@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Ololade",
+    "lastName": "Olakunle",
     "fullName": "Ololade Olakunle",
     "dob": {
       "day": 13,
       "month": 6
     },
+    "ageBracket": "26 - 29 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08168803196",
     "whatsapp": "08168803196",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Ogun"
   },
   {
     "cohort": "Cohort 10",
     "email": "koeleh94@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Fidelis",
+    "lastName": "Saleh",
     "fullName": "Fidelis Saleh",
     "dob": {
       "day": 12,
       "month": 12
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Male",
+    "occupation": "Student",
+    "mobile": "+79956963564",
     "whatsapp": "+79956963564",
-    "country": "Russia"
+    "country": "Russia",
+    "state": "Volgograd"
   },
   {
     "cohort": "Cohort 10",
     "email": "biolah05@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Abiola",
+    "lastName": "Adesina",
     "fullName": "Abiola Adesina",
     "dob": {
       "day": 25,
       "month": 9
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Employed",
+    "mobile": "08100156376",
     "whatsapp": "08100156376",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Niger"
   },
   {
     "cohort": "Cohort 10",
     "email": "emekaobi2035@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Chukwuemeka",
+    "lastName": "Obi",
     "fullName": "Chukwuemeka Obi",
     "dob": {
       "day": 17,
       "month": 8
     },
+    "ageBracket": "35 - 39 years",
+    "sex": "Male",
+    "occupation": "Self-employed",
+    "mobile": "08020998814",
     "whatsapp": "08020998814",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Lagos"
   },
   {
     "cohort": "Cohort 10",
     "email": "mmalizer11@gmail.com",
+    "trainingType": "Cohort Training",
+    "firstName": "Godiya Blessing",
+    "lastName": "Amos",
     "fullName": "Godiya Blessing Amos",
     "dob": {
       "day": 10,
       "month": 10
     },
+    "ageBracket": "30 - 34 years",
+    "sex": "Female",
+    "occupation": "Unemployed",
+    "mobile": "08145213129",
     "whatsapp": "08145213129",
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "state": "Nasarawa"
   }
 ]

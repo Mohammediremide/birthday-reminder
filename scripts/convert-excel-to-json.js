@@ -42,15 +42,38 @@ for (let i = 4; i < rows.length; i++) {
   const row = rows[i];
   const cohort = row[0];
   const email = row[1];
+  const trainingType = row[2];
+  const firstName = row[3];
+  const lastName = row[4];
   const fullName = row[5];
   const dobText = row[6];
+  const ageBracket = row[7];
+  const sex = row[8];
+  const occupation = row[9];
+  const mobile = row[10];
   const whatsapp = row[11];
   const country = row[12];
+  const state = row[13];
 
   const dob = parseDob(dobText);
   if (!dob || !fullName) continue;
 
-  people.push({ cohort, fullName, email, dob, whatsapp, country });
+  people.push({
+    cohort,
+    email,
+    trainingType,
+    firstName,
+    lastName,
+    fullName,
+    dob,
+    ageBracket,
+    sex,
+    occupation,
+    mobile,
+    whatsapp,
+    country,
+    state,
+  });
 }
 
 const outPath = path.join(process.cwd(), "data", "roster.json");
