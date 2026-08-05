@@ -91,7 +91,10 @@ export default function App() {
           <p className="uppercase tracking-[0.2em] text-xs text-amber-soft/80 mb-2">
             Excel With Dikky — Community Roll Call
           </p>
-          <h1 className="font-display text-xl font-semibold mb-4">Enter passphrase</h1>
+          <div className="flex items-center justify-between mb-4">
+            <h1 className="font-display text-xl font-semibold">Enter passphrase</h1>
+            <SecurityBadge />
+          </div>
           <input
             type="password"
             value={passphrase}
@@ -117,17 +120,20 @@ export default function App() {
   return (
     <div className="min-h-screen bg-ledger-bg text-ledger-card font-body">
       <div className="max-w-3xl mx-auto px-5 py-10 sm:py-14">
-        <header className="mb-8">
-          <p className="uppercase tracking-[0.2em] text-xs text-amber-soft/80 mb-2">
-            Excel With Dikky — Community Roll Call
-          </p>
-          <h1 className="font-display text-3xl sm:text-4xl font-semibold text-ledger-card">
-            {DATE_LABEL}
-          </h1>
-          <p className="text-sm text-ledger-card/50 mt-2">
-            A cron job checks and sends automatically every morning — this page is for
-            viewing, or sending on demand.
-          </p>
+        <header className="mb-8 flex items-start justify-between gap-4">
+          <div>
+            <p className="uppercase tracking-[0.2em] text-xs text-amber-soft/80 mb-2">
+              Excel With Dikky — Community Roll Call
+            </p>
+            <h1 className="font-display text-3xl sm:text-4xl font-semibold text-ledger-card">
+              {DATE_LABEL}
+            </h1>
+            <p className="text-sm text-ledger-card/50 mt-2">
+              A cron job checks and sends automatically every morning — this page is for
+              viewing, or sending on demand.
+            </p>
+          </div>
+          <SecurityBadge />
         </header>
 
         {data && (
@@ -192,6 +198,22 @@ export default function App() {
           </>
         )}
       </div>
+    </div>
+  );
+}
+
+/**
+ * Small visible confirmation that the passphrase gate is active — this is
+ * shown any time you're viewing this page, since reaching this point means
+ * you already passed the passphrase check (the fetch to /api/roster
+ * succeeded). If someone without the passphrase tries the URL, they never
+ * get here at all — they stay stuck on the login form.
+ */
+function SecurityBadge() {
+  return (
+    <div className="shrink-0 flex items-center gap-1.5 text-xs bg-ledger-surface border border-amber/40 rounded-full px-3 py-1.5 text-amber-soft">
+      <span aria-hidden="true">🔒</span>
+      <span>Locked — passphrase active</span>
     </div>
   );
 }
