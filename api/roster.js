@@ -1,4 +1,5 @@
 import { loadRoster, computeBirthdays, runReminderCheck } from "../lib/roster.js";
+import { safeCompare } from "../lib/security.js";
 
 /**
  * Used by the dashboard. Requires the shared app passphrase (set as
@@ -11,8 +12,8 @@ import { loadRoster, computeBirthdays, runReminderCheck } from "../lib/roster.js
  * POST -> actually sends the reminder right now (manual trigger)
  */
 export default async function handler(req, res) {
-  const passphrase = req.headers["x-app-passphrase"];
-  if (!process.env.APP_PASSPHRASE || passphrase !== process.env.APP_PASSPHRASE) {
+  const passphrase = req.headers["x-app-passphrase"] || "";
+  if (!process.env.APP_PASSPHRASE || !safeCompare(passphrase, process.env.APP_PASSPHRASE)) {
     return res.status(401).json({ error: "Wrong or missing passphrase" });
   }
 

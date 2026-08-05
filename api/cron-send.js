@@ -1,4 +1,5 @@
 import { runReminderCheck } from "../lib/roster.js";
+import { safeCompare } from "../lib/security.js";
 
 /**
  * Vercel Cron hits this with a GET request on the schedule set in
@@ -13,7 +14,7 @@ export default async function handler(req, res) {
   }
 
   const expected = `Bearer ${process.env.CRON_SECRET}`;
-  if (req.headers.authorization !== expected) {
+  if (!safeCompare(req.headers.authorization || "", expected)) {
     return res.status(401).json({ error: "Unauthorized" });
   }
 
