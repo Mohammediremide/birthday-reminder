@@ -19,7 +19,8 @@ export default async function handler(req, res) {
   }
 
   try {
-    const result = await runReminderCheck();
+    const includeTomorrow = req.query.includeTomorrow === "1";
+    const result = await runReminderCheck({ includeTomorrow });
     return res.status(200).json(result);
   } catch (e) {
     return res.status(500).json({ error: e.message });
