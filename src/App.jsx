@@ -23,6 +23,7 @@ export default function App() {
   const [sending, setSending] = useState(false);
   const [sendResult, setSendResult] = useState(null);
   const [showAddForm, setShowAddForm] = useState(false);
+  const [search, setSearch] = useState("");
 
   async function loadRoster(pass) {
     setLoading(true);
@@ -200,17 +201,25 @@ export default function App() {
             </div>
 
             <div className="mt-14">
-              <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center justify-between mb-3 gap-3">
                 <h2 className="font-display text-lg font-semibold text-ledger-card">
                   Full roster ({data.roster.length})
                 </h2>
                 <button
                   onClick={() => setShowAddForm((s) => !s)}
-                  className="text-xs bg-ledger-surface border border-ledger-line px-3 py-1.5 rounded-md hover:border-amber transition-colors"
+                  className="text-xs bg-ledger-surface border border-ledger-line px-3 py-1.5 rounded-md hover:border-amber transition-colors shrink-0"
                 >
                   {showAddForm ? "Cancel" : "+ Add person"}
                 </button>
               </div>
+
+              <input
+                type="text"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="Search by name, cohort, or email…"
+                className="w-full rounded-md bg-ledger-surface border border-ledger-line px-3 py-2 text-sm mb-4 outline-none focus:border-amber placeholder:text-ledger-card/40"
+              />
 
               {showAddForm && (
                 <PersonForm
@@ -223,10 +232,28 @@ export default function App() {
               )}
 
               <RosterTable
-                roster={data.roster}
+                roster={data.roster.filter((p) => {
+                  const q = search.trim().toLowerCase();
+                  if (!q) return true;
+                  return (
+                    p.fullName?.toLowerCase().includes(q) ||
+                    p.cohort?.toLowerCase().includes(q) ||
+                    p.email?.toLowerCase().includes(q)
+                  );
+                })}
                 passphrase={passphrase}
                 onChanged={() => loadRoster(passphrase)}
               />
+              {search.trim() && data.roster.filter((p) => {
+                const q = search.trim().toLowerCase();
+                return (
+                  p.fullName?.toLowerCase().includes(q) ||
+                  p.cohort?.toLowerCase().includes(q) ||
+                  p.email?.toLowerCase().includes(q)
+                );
+              }).length === 0 && (
+                <p className="text-sm text-ledger-card/50 mt-3">No matches for "{search}".</p>
+              )}
             </div>
           </>
         )}
