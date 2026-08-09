@@ -1,4 +1,4 @@
-import { loadRoster, computeBirthdays, runReminderCheck } from "../lib/roster.js";
+import { loadRoster, computeBirthdays, findDataIssues, runReminderCheck } from "../lib/roster.js";
 import { safeCompare } from "../lib/security.js";
 
 /**
@@ -20,7 +20,8 @@ export default async function handler(req, res) {
   if (req.method === "GET") {
     const people = loadRoster();
     const { today, tomorrow, sortedRoster } = computeBirthdays(people);
-    return res.status(200).json({ today, tomorrow, roster: sortedRoster });
+    const warnings = findDataIssues(people);
+    return res.status(200).json({ today, tomorrow, roster: sortedRoster, warnings });
   }
 
   if (req.method === "POST") {

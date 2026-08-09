@@ -1,15 +1,15 @@
 {
   "crons": [
     {
-      "path": "/api/cron-send",
+      "path": "/api/cron-send?run=morning",
       "schedule": "0 8 * * *"
     },
     {
-      "path": "/api/cron-send",
+      "path": "/api/cron-send?run=midday",
       "schedule": "0 11 * * *"
     },
     {
-      "path": "/api/cron-send?includeTomorrow=1",
+      "path": "/api/cron-send?run=afternoon&includeTomorrow=1",
       "schedule": "0 14 * * *"
     }
   ],

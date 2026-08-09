@@ -22,6 +22,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [sending, setSending] = useState(false);
   const [sendResult, setSendResult] = useState(null);
+  const [showAddForm, setShowAddForm] = useState(false);
 
   async function loadRoster(pass) {
     setLoading(true);
@@ -136,6 +137,15 @@ export default function App() {
           <SecurityBadge />
         </header>
 
+        {data?.warnings?.length > 0 && (
+          <div className="mb-8 rounded-md border border-rose/40 bg-rose/10 px-4 py-3 text-sm text-rose space-y-1">
+            <p className="font-medium">Possible data issues:</p>
+            {data.warnings.map((w, i) => (
+              <p key={i}>• {w}</p>
+            ))}
+          </div>
+        )}
+
         {data && (
           <>
             <div className="flex items-center gap-5 mb-8 bg-ledger-surface rounded-lg px-6 py-5 border border-ledger-line">
@@ -161,7 +171,7 @@ export default function App() {
             {totalToday > 0 && (
               <Section title="Today">
                 {data.today.map((p) => (
-                  <PersonRow key={p.email} person={p} highlight />
+                  <PersonRow key={p.id || p.email} person={p} highlight />
                 ))}
               </Section>
             )}
@@ -169,7 +179,7 @@ export default function App() {
             {data.tomorrow.length > 0 && (
               <Section title="Tomorrow">
                 {data.tomorrow.map((p) => (
-                  <PersonRow key={p.email} person={p} />
+                  <PersonRow key={p.id || p.email} person={p} />
                 ))}
               </Section>
             )}
@@ -190,10 +200,33 @@ export default function App() {
             </div>
 
             <div className="mt-14">
-              <h2 className="font-display text-lg font-semibold text-ledger-card mb-3">
-                Full roster ({data.roster.length})
-              </h2>
-              <RosterTable roster={data.roster} />
+              <div className="flex items-center justify-between mb-3">
+                <h2 className="font-display text-lg font-semibold text-ledger-card">
+                  Full roster ({data.roster.length})
+                </h2>
+                <button
+                  onClick={() => setShowAddForm((s) => !s)}
+                  className="text-xs bg-ledger-surface border border-ledger-line px-3 py-1.5 rounded-md hover:border-amber transition-colors"
+                >
+                  {showAddForm ? "Cancel" : "+ Add person"}
+                </button>
+              </div>
+
+              {showAddForm && (
+                <PersonForm
+                  passphrase={passphrase}
+                  onDone={() => {
+                    setShowAddForm(false);
+                    loadRoster(passphrase);
+                  }}
+                />
+              )}
+
+              <RosterTable
+                roster={data.roster}
+                passphrase={passphrase}
+                onChanged={() => loadRoster(passphrase)}
+              />
             </div>
           </>
         )}
@@ -258,8 +291,157 @@ function PersonRow({ person, highlight }) {
   );
 }
 
-function RosterTable({ roster }) {
+const FIELDS = [
+  { key: "fullName", label: "Full name" },
+  { key: "cohort", label: "Cohort" },
+  { key: "email", label: "Email" },
+  { key: "mobile", label: "Mobile" },
+  { key: "whatsapp", label: "WhatsApp" },
+  { key: "occupation", label: "Occupation" },
+  { key: "sex", label: "Sex" },
+  { key: "ageBracket", label: "Age bracket" },
+  { key: "country", label: "Country" },
+  { key: "state", label: "State" },
+];
+
+/** Add or edit a person. Pass `person` to edit an existing one, omit to add new. */
+function PersonForm({ passphrase, onDone, person }) {
+  const [form, setForm] = useState(() => ({
+    fullName: person?.fullName || "",
+    cohort: person?.cohort || "",
+    email: person?.email || "",
+    mobile: person?.mobile || "",
+    whatsapp: person?.whatsapp || "",
+    occupation: person?.occupation || "",
+    sex: person?.sex || "",
+    ageBracket: person?.ageBracket || "",
+    country: person?.country || "",
+    state: person?.state || "",
+    day: person?.dob?.day || "",
+    month: person?.dob?.month || "",
+  }));
+  const [saving, setSaving] = useState(false);
+  const [error, setError] = useState("");
+
+  function update(field, value) {
+    setForm((f) => ({ ...f, [field]: value }));
+  }
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    setSaving(true);
+    setError("");
+
+    const { day, month, ...rest } = form;
+    const body = { ...rest, dob: { day: Number(day), month: Number(month) } };
+
+    try {
+      const res = await fetch("/api/roster-edit", {
+        method: person ? "PUT" : "POST",
+        headers: { "Content-Type": "application/json", "x-app-passphrase": passphrase },
+        body: JSON.stringify(person ? { id: person.id, ...body } : body),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error || "Save failed");
+      onDone();
+    } catch (e) {
+      setError(e.message);
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  return (
+    <form
+      onSubmit={handleSubmit}
+      className="bg-ledger-surface border border-ledger-line rounded-lg p-5 mb-6 grid sm:grid-cols-2 gap-3"
+    >
+      {FIELDS.map(({ key, label }) => (
+        <div key={key}>
+          <label className="block text-xs text-ledger-card/60 mb-1">{label}</label>
+          <input
+            value={form[key]}
+            onChange={(e) => update(key, e.target.value)}
+            className="w-full rounded-md bg-ledger-bg border border-ledger-line px-3 py-1.5 text-sm outline-none focus:border-amber"
+          />
+        </div>
+      ))}
+      <div className="flex gap-3">
+        <div className="flex-1">
+          <label className="block text-xs text-ledger-card/60 mb-1">Birth day *</label>
+          <input
+            type="number"
+            min="1"
+            max="31"
+            value={form.day}
+            onChange={(e) => update("day", e.target.value)}
+            className="w-full rounded-md bg-ledger-bg border border-ledger-line px-3 py-1.5 text-sm outline-none focus:border-amber"
+          />
+        </div>
+        <div className="flex-1">
+          <label className="block text-xs text-ledger-card/60 mb-1">Birth month (1-12) *</label>
+          <input
+            type="number"
+            min="1"
+            max="12"
+            value={form.month}
+            onChange={(e) => update("month", e.target.value)}
+            className="w-full rounded-md bg-ledger-bg border border-ledger-line px-3 py-1.5 text-sm outline-none focus:border-amber"
+          />
+        </div>
+      </div>
+      <div className="sm:col-span-2 flex items-center gap-3 mt-2">
+        <button
+          type="submit"
+          disabled={saving}
+          className="bg-amber text-ledger-ink font-medium px-4 py-2 rounded-md hover:bg-amber-soft transition-colors disabled:opacity-50"
+        >
+          {saving ? "Saving…" : person ? "Save changes" : "Add person"}
+        </button>
+        {error && <p className="text-sm text-rose">{error}</p>}
+      </div>
+    </form>
+  );
+}
+
+function RosterTable({ roster, passphrase, onChanged }) {
   const rows = useMemo(() => roster, [roster]);
+  const [editingId, setEditingId] = useState(null);
+  const [deletingId, setDeletingId] = useState(null);
+
+  async function handleDelete(person) {
+    if (!confirm(`Remove ${person.fullName} from the roster? This can't be undone.`)) return;
+    setDeletingId(person.id);
+    try {
+      const res = await fetch("/api/roster-edit", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json", "x-app-passphrase": passphrase },
+        body: JSON.stringify({ id: person.id }),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error || "Delete failed");
+      onChanged();
+    } catch (e) {
+      alert(e.message);
+    } finally {
+      setDeletingId(null);
+    }
+  }
+
+  if (editingId) {
+    const person = rows.find((p) => p.id === editingId);
+    return (
+      <PersonForm
+        passphrase={passphrase}
+        person={person}
+        onDone={() => {
+          setEditingId(null);
+          onChanged();
+        }}
+      />
+    );
+  }
+
   return (
     <div className="overflow-x-auto rounded-lg border border-ledger-line">
       <table className="w-full text-sm">
@@ -269,11 +451,12 @@ function RosterTable({ roster }) {
             <th className="px-4 py-2 font-medium">Cohort</th>
             <th className="px-4 py-2 font-medium">Birthday</th>
             <th className="px-4 py-2 font-medium">In</th>
+            <th className="px-4 py-2 font-medium"></th>
           </tr>
         </thead>
         <tbody>
           {rows.map((p) => (
-            <tr key={p.email} className="border-t border-ledger-line/60">
+            <tr key={p.id || p.email} className="border-t border-ledger-line/60">
               <td className="px-4 py-2">{p.fullName}</td>
               <td className="px-4 py-2 text-ledger-card/70">{p.cohort}</td>
               <td className="px-4 py-2 text-ledger-card/70">
@@ -281,6 +464,22 @@ function RosterTable({ roster }) {
               </td>
               <td className="px-4 py-2 text-ledger-card/70">
                 {p.daysAway === 0 ? "Today" : p.daysAway === 1 ? "Tomorrow" : `${p.daysAway}d`}
+              </td>
+              <td className="px-4 py-2 text-right whitespace-nowrap">
+                <button
+                  onClick={() => setEditingId(p.id)}
+                  disabled={!p.id}
+                  className="text-xs text-amber-soft hover:underline mr-3 disabled:opacity-30 disabled:no-underline"
+                >
+                  Edit
+                </button>
+                <button
+                  onClick={() => handleDelete(p)}
+                  disabled={!p.id || deletingId === p.id}
+                  className="text-xs text-rose hover:underline disabled:opacity-30 disabled:no-underline"
+                >
+                  {deletingId === p.id ? "Removing…" : "Delete"}
+                </button>
               </td>
             </tr>
           ))}

@@ -99,3 +99,42 @@ vercel dev
 - If you ever add new people to the Excel file, keep `Date of Birth` in
   `DD-Mon` format (e.g. `01-Dec`) — that's what the converter script
   expects.
+
+## Editing the roster from the dashboard
+
+Instead of editing `data/roster.json` and pushing manually, you can now
+add, edit, or delete people right from the dashboard's "+ Add person" and
+Edit/Delete buttons — this commits the change straight to your GitHub repo,
+which triggers Vercel to redeploy automatically (usually live within
+30-60 seconds).
+
+**One-time setup:**
+1. GitHub → Settings → Developer settings → Personal access tokens →
+   Fine-grained tokens → Generate new token
+2. Scope it to just this one repository
+3. Under Permissions → Repository permissions → set **Contents** to
+   **Read and write**
+4. Copy the token, add it to Vercel's environment variables as
+   `GITHUB_TOKEN`
+5. Also add `GITHUB_REPO` (e.g. `yourusername/birthday-reminder`) and
+   `GITHUB_BRANCH` (usually `main`)
+6. Redeploy
+
+Until this is set up, viewing the roster still works fine — only the
+add/edit/delete buttons need it.
+
+## Data warnings
+
+The dashboard now flags likely data problems automatically: duplicate
+names, the same name with two different birthdays (probably a typo), and
+impossible dates. These show as a banner at the top when found — nothing
+gets blocked, it's just a heads-up so you can go fix the source entry.
+
+## Peace of mind
+
+- If a send ever fails (Telegram or email), you'll get a separate
+  Telegram alert about it right away.
+- Once a day (on the 9AM run only, and only when there's nothing else to
+  report), you'll get a short "✅ checked in, all fine" message — so a
+  morning of total silence is a sign to check whether the cron job itself
+  stopped running, not just that nobody had a birthday.
