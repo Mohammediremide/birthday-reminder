@@ -141,26 +141,6 @@
   },
   {
     "cohort": "Cohort 1",
-    "email": "zheeko.data@gmail.com",
-    "trainingType": "Cohort Training",
-    "firstName": "Babatunde",
-    "lastName": "Usman",
-    "fullName": "Babatunde Usman",
-    "dob": {
-      "day": 17,
-      "month": 10
-    },
-    "ageBracket": "35 - 39 years",
-    "sex": "Male",
-    "occupation": "Employed",
-    "mobile": 8032726659,
-    "whatsapp": 7086881812,
-    "country": "Nigeria",
-    "state": "Lagos",
-    "id": "dd0d4763-215c-4e99-963b-53caceccab64"
-  },
-  {
-    "cohort": "Cohort 1",
     "email": "marvelousadeitan@gmail.com",
     "trainingType": "Cohort Training",
     "firstName": "Marvelous ",
@@ -2638,5 +2618,22 @@
     "country": "Nigeria",
     "state": "Nasarawa",
     "id": "f4abe7c1-f14f-4db1-9933-de2a5cb5a41e"
+  },
+  {
+    "id": "bcb8673b-2235-4462-8909-517d3d721e95",
+    "fullName": "Odewunmi Mohammed",
+    "cohort": "",
+    "email": "odewunmimohammed@gmail.com",
+    "mobile": "09124238866",
+    "whatsapp": "",
+    "occupation": "",
+    "sex": "",
+    "ageBracket": "",
+    "country": "Nigeria",
+    "state": "lAGOS",
+    "dob": {
+      "day": 8,
+      "month": 12
+    }
   }
 ]
