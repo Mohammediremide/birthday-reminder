@@ -1,5 +1,5 @@
 import crypto from "crypto";
-import { fetchRosterFromGitHub, commitRosterToGitHub } from "../lib/github.js";
+import { fetchRosterWithHealedIds, commitRosterToGitHub } from "../lib/github.js";
 import { findDataIssues } from "../lib/roster.js";
 import { safeCompare } from "../lib/security.js";
 
@@ -27,7 +27,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { people, sha } = await fetchRosterFromGitHub();
+    const { people, sha } = await fetchRosterWithHealedIds();
 
     if (req.method === "POST") {
       const person = { id: crypto.randomUUID(), ...req.body };

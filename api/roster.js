@@ -1,4 +1,5 @@
 import { loadRoster, computeBirthdays, findDataIssues, runReminderCheck } from "../lib/roster.js";
+import { fetchRosterWithHealedIds } from "../lib/github.js";
 import { safeCompare } from "../lib/security.js";
 
 /**
@@ -18,7 +19,23 @@ export default async function handler(req, res) {
   }
 
   if (req.method === "GET") {
-    const people = loadRoster();
+    // If GitHub is configured, read the LIVE file — the same source
+    // Add/Edit/Delete operate on — instead of the bundle from your last
+    // deploy. Without this, the dashboard could show someone that an edit
+    // request can no longer find, if a change landed on GitHub before the
+    // next redeploy caught up. Falls back to the bundled copy if GitHub
+    // isn't set up (read-only viewing still works either way).
+    let people;
+    if (process.env.GITHUB_TOKEN && process.env.GITHUB_REPO) {
+      try {
+        ({ people } = await fetchRosterWithHealedIds());
+      } catch {
+        people = loadRoster(); // GitHub hiccup — fall back rather than break the view
+      }
+    } else {
+      people = loadRoster();
+    }
+
     const { today, tomorrow, sortedRoster } = computeBirthdays(people);
     const warnings = findDataIssues(people);
     return res.status(200).json({ today, tomorrow, roster: sortedRoster, warnings });
