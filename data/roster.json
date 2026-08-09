@@ -141,26 +141,6 @@
   },
   {
     "cohort": "Cohort 1",
-    "email": "zheeko.data@gmail.com",
-    "trainingType": "Cohort Training",
-    "firstName": "Babatunde",
-    "lastName": "Usman",
-    "fullName": "Babatunde Usman",
-    "dob": {
-      "day": 17,
-      "month": 10
-    },
-    "ageBracket": "35 - 39 years",
-    "sex": "Male",
-    "occupation": "Employed",
-    "mobile": 8032726659,
-    "whatsapp": 7086881812,
-    "country": "Nigeria",
-    "state": "Lagos",
-    "id": "dd0d4763-215c-4e99-963b-53caceccab64"
-  },
-  {
-    "cohort": "Cohort 1",
     "email": "marvelousadeitan@gmail.com",
     "trainingType": "Cohort Training",
     "firstName": "Marvelous ",
