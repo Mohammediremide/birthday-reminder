@@ -2620,23 +2620,6 @@
     "id": "f4abe7c1-f14f-4db1-9933-de2a5cb5a41e"
   },
   {
-    "id": "837dea01-78ed-441c-97bf-bfed7be7d325",
-    "fullName": "Odewunmi Mohammed",
-    "cohort": "Cohort 1",
-    "email": "odewunmimohammed@gmail.com",
-    "mobile": "09124238866",
-    "whatsapp": "9124238866",
-    "occupation": "Student",
-    "sex": "Male",
-    "ageBracket": "13",
-    "country": "Nigeria",
-    "state": "lAGOS",
-    "dob": {
-      "day": 21,
-      "month": 8
-    }
-  },
-  {
     "id": "bcb8673b-2235-4462-8909-517d3d721e95",
     "fullName": "Odewunmi Mohammed",
     "cohort": "",
